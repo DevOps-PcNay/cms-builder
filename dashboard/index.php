@@ -2,7 +2,10 @@
   // ================================================
   // Depurar errores
   // ================================================
+  // Variable Global
   define('DIR',__DIR__);
+
+  
   // echo "<pre>";print_r(DIR);echo"</echo>";
 
   // Para desplegar los errores
