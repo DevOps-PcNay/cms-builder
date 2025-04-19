@@ -1,0 +1,11 @@
+# Para que se no se muestren los directorios. solo cuando se este ejecutando esta aplicacion Web.
+Options All -Indexes
+Options -MultiViews
+
+# Reescribir todas las reglas
+RewriteEngine On
+
+# Cuando se escriba en la barra de direcciones (URL)
+RewriteCond %{REQUEST_FILENAME} !-f
+# Se redireccione al archivo "index.php"
+RewriteRule ^ index.php [QSA,L]
