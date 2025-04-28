@@ -125,9 +125,11 @@
         include "pages/install/install.php";
       ?>
 
-      <!--=============================================
-      CUSTOM JS
-      ===============================================-->
+      <!--
+      ==========================================================
+      CUSTOM JS se agregan los archivos de JavaScript personalizados.
+      =============================================================== 
+      -->
 
       <script src="/views/assets/js/forms/forms.js"></script>
     

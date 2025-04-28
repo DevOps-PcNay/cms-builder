@@ -5,27 +5,40 @@
     <!-- Para ventana de captura, border redondeado, con sombra en bordes, padin 5 -->
     <div class="card border-0 rounded shadow p-5">
 
-      <form method="POST">
+      <!-- 
+        "class="needs-validation" = Se agrega esta clase para que valide el formulario,. utilizando Javascript
+        "novalidate" = Para que no valide por defecto con HTML si no con JavaScript       
+      --> 
+        
+      <form method="POST" class ="needs-validation" novalidate >
         <h3 class="pt-3">Instalacion Dashboard</h3>
         <hr>
         <div class="form-group mb-3">
           <label for="email_admin">Correo Administrador<sup>*</sup></label>
             <input type="email" class="form-control rounded" id="email_admin" name="email_admin" required>
+          <div class="valid-feedback">Valido</div>  
+          <div class="invalid-feedback">Favor De Rellenar Datos</div>  
         </div>
 
         <div class="form-group mb-3">
           <label for="password_admin">Contrasena Administrador<sup>*</sup></label>
             <input type="password" class="form-control rounded" id="password_admin" name="password_admin" required>
+            <div class="valid-feedback">Valido</div>  
+            <div class="invalid-feedback">Favor De Rellenar Datos</div>  
         </div>
 
         <div class="form-group mb-3">
           <label for="title_admin">Nombre Del Dashboard<sup>*</sup></label>
             <input type="text" class="form-control rounded" id="title_admin" name="title_admin" required>
+            <div class="valid-feedback">Valido</div>  
+            <div class="invalid-feedback">Favor De Rellenar Datos</div>  
         </div>       
 
         <div class="form-group mb-3">
           <label for="symbol_admin">Simbolo Del Dashboard<sup>*</sup></label>
             <input type="text" class="form-control rounded" id="symbol_admin" name="symbol_admin" required>
+            <div class="valid-feedback">Valido</div>  
+            <div class="invalid-feedback">Favor De Rellenar Datos</div>  
         </div> 
 
         <div class="form-group mb-3">
