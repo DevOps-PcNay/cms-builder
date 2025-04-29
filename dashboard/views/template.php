@@ -112,12 +112,12 @@
         <!--=============================================
         PLUGINS JS
         ===============================================-->
-        <link rel="stylesheet" href="/views/assets/css/custom/custom.css">
+        
 
         <!--=============================================
         CUSTOM CSS
         ===============================================-->
-
+        <link rel="stylesheet" href="/views/assets/css/custom/custom.css">
 
       </head>
     <body>

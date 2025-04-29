@@ -1,0 +1,27 @@
+a:link, a:visited, a:hover, a:active {
+  text-decoration:none !important; /* Tendra prioridad de otras etiquetas CSS que este uzando. */
+}
+
+.rounded {
+  border-radius:8px !important;
+}
+
+/*  Se crea la clase "roudend-start" Redondea solo las esuinas superiores */
+.roudend-start {
+  border-top-left-radius : 8px !important;
+  border-bottom-left-radius:8px !important;
+}
+
+.roudend-end{
+  border-top-right-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+}
+.roudend-top{
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important;
+}
+
+.roudend-bottom{
+  border-bottom-left-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+}
