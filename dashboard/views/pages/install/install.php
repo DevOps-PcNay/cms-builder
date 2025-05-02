@@ -69,6 +69,12 @@
 
         <button type="submit" class="btn btn-dark btn-block w-100 rounded mt-5">Instalar </button>
 
+        <?php 
+          require_once "controllers/install.controller.php";
+          $install = new InstallController();
+          $install->Install();
+
+        ?>
       </form>
 
     </div> <!-- <div class="card border-0 rounded shadow p-5"> -->
