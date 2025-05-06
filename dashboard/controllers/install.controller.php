@@ -115,9 +115,13 @@
             $stmtColumns = InstallController::connect()->prepare($sqlColumns);
 
         if (($stmtAdmins->execute()) && ($stmtPages->execute()) && ($stmtModules->execute())&& ($stmtColumns->execute()))
-        {
-          echo '<script> alert("Tablas creada exitosamente")</script>';
+        {          
+          echo '<script> 
+          fncMatPreloader("on");
+          fncSweetAlert("success","Tablas creada exitosamente","");          
+          </script>';
         }
+        
       }
     }
 

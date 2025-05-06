@@ -31,11 +31,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+
         <!--=============================================
         CUSTOM JS SERVER
         ===============================================-->
-        <script src="/views/assets/js/alerts/alerts.js"></script>
-
+        <!-- Se posiciona al inicio ya que el servidor primero carga el "header" -->
+        <script src="/views/assets/js/alerts/alerts.js"></script>        
+        
         <!--=============================================
         PLUGINS CSS
         ===============================================-->
@@ -132,7 +134,8 @@
       -->
 
       <script src="/views/assets/js/forms/forms.js"></script>
-    
+      
+          
     </body>
 
   </html>
